@@ -68,4 +68,12 @@ public class MainActivity extends AppCompatActivity {
         TextView text = (TextView) findViewById(R.id.textView);
         text.setText("Qr for Arpi");
     }
+
+    public void onClickReadDb(View view) {
+        imageView = findViewById(R.id.imageView);
+        imageView.setImageBitmap(null);
+        TextView text = (TextView) findViewById(R.id.textView2);
+        text.setText("Word het lastig"+"\n"+"Pijl van der Waare");
+
+    }
 }
